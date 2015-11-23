@@ -30,7 +30,9 @@ def esPrimoIntervalo(i, k):
 
 def cuantosDivisores(n):
     # Devolver la cantidad de divisores que tiene el número, incluyendo 1 y a sí mismo
-
+	divisores = 0;
+    for i in range(2, n):
+        if n % i == 0: divisores += 1
 
 """
 #Probando que funciona <<esPrimo(n)>>
